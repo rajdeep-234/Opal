@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*common element*/
+ul{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*common class*/
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 -15px;
+}
+/*navbar*/
+.navbar{
+    background-color: #9ea2d9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+}
+.navlogo{
+    max-width: 70px;
+    width: 100%;
+}
+.navitems{
+    display: flex;
+}
+/* .navlinks{
+    position: absolute;
+} */
+.navlinks ul{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.navlinks li{
+    margin-left: 50px;
+}
+.navlinks li a{
+    color: aliceblue;
+    transition: box-shadow 3s ease;
+}
+.navlinks li a:hover{
+    box-shadow: 1px 1px 5px #0a1b2c;
+}
+.toggler{
+    color: rgb(28, 1, 28);
+    display: none;
+}
+/*banner*/
+.banner{
+    background-image: url(../images/birds_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 110px);
+    padding: 50px 0;
+}
+.banner-content{
+    color: #0f220e;
+    max-width: 800px;
+    width: 100%;
+}
+.banner-content span{
+    color: rgb(41, 6, 13);
+    font-size: 20px;
+    font-weight: 600;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col{
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+}
+.col-33{
+    width: 33.33%;
+}
+.col-25{
+    width: 25%;
+}
+.carousel-item img{
+    height:100px;
+}
+@media screen and (max-width:767px){
+    nav{
+        /* flex-direction: column;
+        align-items: flex-start; */
+        position: relative;
+    }
+     .navlinks{
+        /* display: none; */
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: aqua;
+        width: 100%;
+        z-index: 100;
+     }
+    .navlinks ul{
+        flex-direction: column;
+    }
+    .navlinks li{
+        margin-left: 0px;
+        margin-bottom: 15px;
+        display: none;
+    }
+    .toggler{
+        display: block;
+    }
+    .banner-content{
+        text-align: center;
+    }
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-size: 20px; */
+  font-weight: 400;
+  line-height: 1;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 85px;
+  font-weight: 600;
+  line-height: 1;
+}
+.banner-content {
+  max-width: 854px;
+  width: 100%;
+}
+span {
+  color: #ffc358;
+}
+.contactNav img {
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+}
+.banner {
+  background-image: url(../images/banner_house.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1074px;
+  border-radius: 30px;
+  background-color: rgba(128, 128, 128, 0.493);
+  background-blend-mode: multiply;
+}
+.banner_explore {
+  width: 200px;
+  padding: 4px 30px;
+}
+.banner_explore p {
+  color: rgb(255, 196, 0);
+}
+.banner-content{
+  padding-top: 125px;
+  max-width: 854px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+.bannerDetails {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+}
+.bannerActive {
+  border-bottom: 5px solid #e7a837;
+}

@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+}
+.promotionalBanner{
+    background-color: #644135;
+    padding: 15px 0;
+}
+/* .text-center{
+    text-align: center !important;
+} */
+a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.navbar-toggler{
+    font-size: 1.25rem;
+    line-height: 1;
+    color: rgba(0,0,0,0.65);
+}
+.navbar-nav{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    gap: 25px;
+}
+/* .mb-lg-0{
+    margin-bottom: 0 !important;
+}
+.fs-5{
+    font-size: 1.25rem !important;
+}
+.me-auto{
+    margin-right: auto !important;
+} */
+.banner{
+    background-image: url(../images/banner_opal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 884px;
+}
+/* .mb-30{
+    margin-bottom: 30px;
+} */
+.bannerInfo{
+    max-width: 600px;
+    width: 100%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    font-family: "Bodoni Moda",sans-serif;
+}
+.customBtnPrimary{
+    color: #644135;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background-color: #eae9e4;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+.customBtnSecondary{
+    color: #eae9e4;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background-color: #644135;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+ul{
+    list-style-type: none;
+}
+/* .col{
+    flex: 1 0 0;
+} */
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: black;
+}
+h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    color: #644135;
+    font-family: "Bodoni Moda",sans-serif;
+}
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    color: #631015;
+    font-family: "Bodoni Moda",sans-serif;
+}
+.productCard figure{
+    overflow: hidden;
+}
+.dealRight{
+    background-color: #644135;
+    padding: 20px;
+}
+.dealBody h2{
+    color: white;
+}
+.leftpart{
+    border-right: 2px solid #c2ac93;
+    padding-right: 260px;
+}
+footer{
+    background-color: #644135;
+    padding-top: 115px;
+}
+form{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.footcard1, .footcard2{
+    border-right: 2px solid #C2AC93;
+}
+.footcard ul li a{
+    color: white;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+input{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 100px;
+    width: 100%;
+}
+.contactform p{
+    font-size: 48px;
+    line-height: 1;
+    color: white;
+    font-family: "Bodoni Moda",sans-serif;
+}
+.last{
+    padding-left: 20px;
+    border-left: 2px solid #c2ac93;
+}
+/* .item{
+    background-color: white;
+    padding: 80px;
+    max-width: 815px;
+    width: 100%;
+    position: absolute;
+}
+.wrapper{
+    position: relative;
+    height: 304px;
+    overflow: hidden;
+
+} */
